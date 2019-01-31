@@ -5,19 +5,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link  href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"  rel="stylesheet">
   <title>Address book</title>
-</head>
 
-<body>
-  <div class="contact-list">
+</head>
+  <body class= "bg-orange-lighter">
+    
+    <div class="container mx-20 mt-24 bg-orange-lighter rounded-full py-5 max-w-sm shadow-lg mt-10 hover:bg-grey">
+      <h1 class= "roman font-thin text-3xl text-center text-red-dark">Contacts</h1>
+  </div>
+
+
+
+
+    <div class="container my-6 mx-auto"></div>
+    <div class="contact-list">
     <h1>Contacts</h1>
+  <h2 class="font-serif">NEW HEADER</h2>
   </div>
 
   <button class="add-contact"></button>Add Contact</button>
   <button>New Contact</button>
     <form class="new-contact-form" action="#">
+      
       <label for="name">Name</label>
       <input id="contact-name" name="name" type="text">
+      
+      
       <label for="email">Email</label>
       <input id="contact-email" name="email" type="email">
       <label for="phone">Phone</label>
