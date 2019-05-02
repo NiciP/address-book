@@ -12,15 +12,21 @@ It has the funtionality to add new contacts and to view the following details fo
 - Notes
 - Twitter
 
-Website deployed: https://blissful-babbage-41fc62.netlify.com/
+#### Website deployed: https://blissful-babbage-41fc62.netlify.com/
 
-Languages:
+#### Languages / software:
 
 - Javascript
 - html  
 - tailwind css
+- Cucumber
+- Chai
+- Puppeteer
+- Mocha
+- Superstatic
+- Babel
 
-Steps to run as expected without navigating to the deployed URL:
+#### Steps to run as expected without navigating to the deployed URL:
  - Download files onto local pc
  - Open terminal and navigate to folder
  - Run the following commands: <br>
@@ -32,5 +38,7 @@ Steps to run as expected without navigating to the deployed URL:
  yarn run serve
  - Visit http://localhost:3000 in the browser
 
-Built by: Amanda Gibson: https://github.com/amandagibson & Nici Putter: https://github.com/NiciP
+#### Built by: <br>
+Amanda Gibson: https://github.com/amandagibson & <br>
+Nici Putter: https://github.com/NiciP
 
